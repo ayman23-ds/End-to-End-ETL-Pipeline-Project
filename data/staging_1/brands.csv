@@ -1,0 +1,10 @@
+brand_id,brand_name,extraction_timestamp,extraction_date,data_source
+1,Electra,1774466901,2026-03-25 19:28:21,Data Lake
+2,Haro,1774466901,2026-03-25 19:28:21,Data Lake
+3,Heller,1774466901,2026-03-25 19:28:21,Data Lake
+4,Pure Cycles,1774466901,2026-03-25 19:28:21,Data Lake
+5,Ritchey,1774466901,2026-03-25 19:28:21,Data Lake
+6,Strider,1774466901,2026-03-25 19:28:21,Data Lake
+7,Sun Bicycles,1774466901,2026-03-25 19:28:21,Data Lake
+8,Surly,1774466901,2026-03-25 19:28:21,Data Lake
+9,Trek,1774466901,2026-03-25 19:28:21,Data Lake
