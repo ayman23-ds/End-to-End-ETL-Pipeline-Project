@@ -69,7 +69,7 @@ print("=" * 50)
 #           Connection With MySql
 # ====================================
 
-engine = create_engine("mysql+pymysql://root:180709@localhost/db")
+engine = create_engine("mysql+pymysql://root:PASS@localhost/db")
 print("Connected successfully")
 
 for table_name, df in tables.items():
