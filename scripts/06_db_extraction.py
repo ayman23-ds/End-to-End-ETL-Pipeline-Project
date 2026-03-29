@@ -7,7 +7,7 @@ try:
         host="localhost",
         port=3306,
         user="root",
-        password="180709",
+        password="PASS",
         database="db",
     )
 
