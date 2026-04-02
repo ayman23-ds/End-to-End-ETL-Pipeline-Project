@@ -1,4 +1,0 @@
-store_id,store_name,phone,email,street,city,state,zip_code,extraction_timestamp,extraction_date,data_source
-1,Santa Cruz Bikes,(831) 476-4321,,3700 Portola Drive,Santa Cruz,CA,,1774466901,2026-03-25 19:28:21,Data Lake
-2,Baldwin Bikes,(516) 379-8888,baldwin@bikes.shop,4200 Chestnut Lane,Baldwin,NY,11432.0,1774466901,2026-03-25 19:28:21,Data Lake
-3,Rowlett Bikes,(972) 530-5555,rowlett@bikes.shop,8000 Fairway Avenue,Rowlett,TX,75088.0,1774466901,2026-03-25 19:28:21,Data Lake

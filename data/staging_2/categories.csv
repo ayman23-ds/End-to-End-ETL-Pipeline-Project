@@ -1,8 +1,0 @@
-category_id,category_name,extraction_timestamp,extraction_date,data_source
-1,Children Bicycles,1774466901,2026-03-25 19:28:21,Data Lake
-2,Comfort Bicycles,1774466901,2026-03-25 19:28:21,Data Lake
-3,Cruisers Bicycles,1774466901,2026-03-25 19:28:21,Data Lake
-4,Cyclocross Bicycles,1774466901,2026-03-25 19:28:21,Data Lake
-5,Electric Bikes,1774466901,2026-03-25 19:28:21,Data Lake
-6,Mountain Bikes,1774466901,2026-03-25 19:28:21,Data Lake
-7,Road Bikes,1774466901,2026-03-25 19:28:21,Data Lake
