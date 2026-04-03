@@ -291,3 +291,35 @@ The average spending for the High segment is extremely larger than the other gro
 ![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/633683c8aa03e59ce8e29aaeeb844c8c9c8fad86/reports/Average_Spending_by_Customer_Segment.png)
 
 
+### **Sales Distribution by Customer Locality**
+
+The customer locality pie chart shows that sales are overwhelmingly dominated by one group:
+- non local customers with value 0 represents about 98.8%
+- local customers with value 1 represents only about 1.2%
+
+**Interpretation**
+
+This means the business is highly dependent on customers from different locations.
+The other group contributes only a very small fraction of overall sales.
+![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/730ecc8b5b477afa049f07c725eb359cddf381cb/reports/Customer_Locality_pie.png)
+
+### **Delivery Performance Analysis**
+
+**On-Time vs Late Deliveries**
+
+The delivery performance charts show:
+- around 67.9% of orders were delivered on time
+- around 32.1% were delivered late
+
+**Interpretation**
+
+The company performs reasonably well because most orders are delivered on time.
+However a late delivery rate of about one-third is still significant and may negatively affect:
+
+- customer satisfaction
+- repeat purchases
+- trust in service quality
+
+![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/730ecc8b5b477afa049f07c725eb359cddf381cb/reports/Delivery_Performance.png)
+![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/730ecc8b5b477afa049f07c725eb359cddf381cb/reports/Delivery_Performance_pie.png)
+
