@@ -163,8 +163,6 @@ This design includes multiple fact tables that share common dimension tables ena
 - Each fact table is linked to dimension tables using foreign keys  
 - Shared dimensions allow combining multiple business processes (sales & inventory)
 
----
-
 ####  Benefits
 
 - Enables analysis across multiple business areas (sales vs inventory)
