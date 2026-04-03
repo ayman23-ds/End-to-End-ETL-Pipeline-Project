@@ -202,5 +202,36 @@ Overall the time series analysis suggests:
 
 ![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/a386929301e7581e0ddaa5ce421bf5ee26269f88/reports/yearly_sales.png)
 
+#### **Monthly Sales Analysis**
+the monthly sales charts show that sales were relatively stable across most months, with normal fluctuations over time.
+In general monthly sales mostly ranged between nearly 8 million and 22 million which indicates a fairly consistent sales pattern during most of the observed period.
+
+However there is one very clear exceptional spike around November 2017 where total sales rose dramatically to nearly 88 million.
+This value is far above the normal monthly range and should be highlighted as a major event in the business cycle.
+
+![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/0386231d2a97f66356880e9262ccef8c3947412b/reports/monthly_sales_line.png)
+![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/0386231d2a97f66356880e9262ccef8c3947412b/reports/monthly_sales_bars.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
