@@ -370,7 +370,7 @@ End-to-End ETL Pipeline
 │
 ├── reports
 │
-└── scripts
+├── scripts
 │    ├── python scripts
 │    └── sql scripts
 └── 
