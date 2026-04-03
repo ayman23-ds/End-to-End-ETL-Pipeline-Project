@@ -248,10 +248,23 @@ The gap between Mountain Bikes and the other categories is significant which sug
 ![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/cb27eb5bcac7840b1184ec95d4c442010e093ddf/reports/Top_5_Categories.png)
 
 
+### **Store Performance**
 
+The store sales chart shows a very strong concentration in one store:
 
+- Baldwin Bikes is by far the top performing store
+- then come Santa Cruz Bikes and Rowlett Bikes but with a much smaller contribution
 
+**Interpretation**
 
+Baldwin Bikes is clearly dominating the sales landscape.
+Its total sales are several times higher than the next stores which may indicate:
+
+- better location
+- larger customer base
+- stronger operational performance
+
+![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/6dcdbe5a106cf8a5283aef742148de4de3973de2/reports/Top_5_Stores.png)
 
 
 
