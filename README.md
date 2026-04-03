@@ -11,7 +11,7 @@ The goal of this project is to simulate a real world data engineering workflow  
 -  Data extraction from multiple sources (API, databases, CSV files)
 -  Data cleaning and validation processes
 -  Data transformation and enrichment
--  Dimensional data modeling (Star Schema)
+-  Dimensional data modeling (Galaxy Schema)
 -  Business insights through data visualization
 
 ---
@@ -39,6 +39,14 @@ This project is designed to:
 - Clean and structured datasets
 - Data warehouse (Fact & Dimension tables)
 - Insightful charts and reports
+
+---
+##  Model Architecture
+![image alt]([https://github.com/ayman23-ds/SQL-DWH-Project/blob/b61b88bba4a6396399c213bd1701a2529b82a902/docs/data%20flow.png](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/afac8494f38ed1a23c9ed0eab0e2914d98671428/reports/data_flow.png))
+
+- **Bronze Layer**: Stores raw data as is from the source systems. Data is ingested from CSV Files, API, DB into MYSQL Database.
+- **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+- **Gold Layer**: Houses business ready data modeled into a Galaxy schema required for reporting and analytics.
 
 ---
 ## Data Extraction
