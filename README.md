@@ -178,10 +178,13 @@ This design includes multiple fact tables that share common dimension tables ena
 - Reduces redundancy by sharing dimensions
 
 ---
+## Report and Analysis
 
+1- **Introduction**
 
-
-
+This section presents the main business insights obtained from the Gold Layer after building the Galaxy Schema and generating analytical charts from fact_sales and related dimensions.
+The analysis focuses on sales trends, customer behavior, delivery performance, product performance, category performance, and store contribution.
+The purpose of this analysis is to transform the structured warehouse data into meaningful business insights that support decision making.
 
 
 
