@@ -213,14 +213,39 @@ This value is far above the normal monthly range and should be highlighted as a 
 ![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/0386231d2a97f66356880e9262ccef8c3947412b/reports/monthly_sales_bars.png)
 
 
+### **Product and Category Performance**
+
+#### **Top 10 Best Selling Products**
+
+he Top 10 Products chart shows that a limited number of products contribute a very large portion of total sales.
+The highest-selling product is:
+Trek Slash 8 27.5 - 2016
+
+followed by:
+Trek Conduit+ - 2016
+Trek Fuel EX 8 29 - 2016
+Trek Domane S 5 Disc - 2017
+
+This indicates that product sales are not equally distributed.
+Instead a relatively small number of products are responsible for a large share of total revenue.
+
+![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/cb27eb5bcac7840b1184ec95d4c442010e093ddf/reports/Top_10_Products.png)
+
+#### **Top 5 Best Selling Categories**
+
+The Top 5 Categories chart shows that:
+
+Mountain Bikes is the best-selling category by a large margin
+Road Bikes comes second
+Cruisers Bicycles is third
+Electric Bikes and Cyclocross Bicycles follow behind
+Interpretation
+
+This means customer demand is concentrated strongly in Mountain Bikes.
+The gap between Mountain Bikes and the other categories is significant which suggests that this category is a major revenue driver.
 
 
-
-
-
-
-
-
+![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/cb27eb5bcac7840b1184ec95d4c442010e093ddf/reports/Top_5_Categories.png)
 
 
 
