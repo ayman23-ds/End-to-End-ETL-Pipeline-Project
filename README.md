@@ -371,7 +371,9 @@ End-to-End ETL Pipeline
 ├── reports
 │
 └── scripts
-
+│    ├── python scripts
+│    └── sql scripts
+└── 
 ```
 
 ---
