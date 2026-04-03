@@ -41,3 +41,44 @@ This project is designed to:
 - Insightful charts and reports
 
 ---
+## Data Extraction
+the first step in this project is **data extraction** , where raw data is collected from multiple resources
+
+### Data Sources
+the project integrates data from three main sources : 
+
+- **API**
+  External data is fetched using `requests` library to get currency exchange rates from open exchange rates API.
+  the result is saved in csv file named : currency.csv
+
+- **Realation Database*
+  data is extracted from structured tables in `MYSQL RDBMS` such as orders, order items tables
+  this operation was done using mysql.connector in python to establish a connection with db. 
+  the result is saved in csv files named : orders.csv , order_items.csv.
+
+- **Data Lake (Local Files)**
+  Multiple CSV files are loaded from local directories:
+  the result is saved in csv files named :brands.csv , categories.csv , customers.csv , products.csv , staffs.csv , stocks.csv , stores.csv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
