@@ -58,7 +58,7 @@ the project integrates data from three main sources :
 
 - **Data Lake (Local Files)**
   Multiple CSV files are loaded from local directories:
-  the result is saved in csv files named :brands.csv , categories.csv , customers.csv, products.csv , staffs.csv , stocks.csv , stores.csv
+  the result is saved in csv files named :brands.csv , categories.csv, customers.csv, products.csv , staffs.csv , stocks.csv , stores.csv
 
 
 
