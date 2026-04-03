@@ -127,9 +127,51 @@ After cleaning several transformations are applied:
 The cleaned and transformed datasets are stored in `silver layer`
 
 ---
+## 🥇 Gold Layer – Data Modeling & Analytics
+
+The **Gold Layer** represents the final stage of the ETL pipeline, where cleaned and transformed data is structured into a dimensional model for analysis and reporting.
+At this stage data is optimized for business intelligence and decision making.
+
+### **Galaxy Schema** 
+Instead of using a single fact table a **Galaxy Schema**  is implemented.
+This design includes multiple fact tables that share common dimension tables enabling more advanced and flexible analysis.
+
+####  Fact Tables
+
+- **fact_sales**
+  - Contains transactional sales data
+  - Metrics: quantity, gross_amount, net_amount, discount, etc.
+  - Flages : is_late , is_local
+
+- **fact_inventory**
+  - Contains stock and inventory data
+  - Metrics: stock quantity, availability, etc.
 
 
+####  Shared Dimension Tables
 
+ fact tables are connected to  dimensions:
+
+- **dim_product**
+- **dim_store**
+- **dim_date**
+- **dim_customer**
+- **dim_staff**
+
+#### Relationships
+
+- Each fact table is linked to dimension tables using foreign keys  
+- Shared dimensions allow combining multiple business processes (sales & inventory)
+
+---
+
+####  Benefits
+
+- Enables analysis across multiple business areas (sales vs inventory)
+- Improves scalability and flexibility of the data model
+- Reduces redundancy by sharing dimensions
+
+---
 
 
 
