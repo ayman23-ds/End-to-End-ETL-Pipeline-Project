@@ -42,7 +42,7 @@ This project is designed to:
 
 ---
 ##  Model Architecture
-![image alt]([https://github.com/ayman23-ds/SQL-DWH-Project/blob/b61b88bba4a6396399c213bd1701a2529b82a902/docs/data%20flow.png](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/afac8494f38ed1a23c9ed0eab0e2914d98671428/reports/data_flow.png))
+![image alt](https://github.com/ayman23-ds/SQL-DWH-Project/blob/b61b88bba4a6396399c213bd1701a2529b82a902/docs/data%20flow.png)
 
 - **Bronze Layer**: Stores raw data as is from the source systems. Data is ingested from CSV Files, API, DB into MYSQL Database.
 - **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
