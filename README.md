@@ -180,17 +180,26 @@ This design includes multiple fact tables that share common dimension tables ena
 ---
 ## Report and Analysis
 
-1- **Introduction**
+### **Introduction**
 
 This section presents the main business insights obtained from the Gold Layer after building the Galaxy Schema and generating analytical charts from fact_sales and related dimensions.
 The analysis focuses on sales trends, customer behavior, delivery performance, product performance, category performance, and store contribution.
 The purpose of this analysis is to transform the structured warehouse data into meaningful business insights that support decision making.
 
+### **Sales Performance Over Time**
 
+#### **Yearly Sales Analysis**
+The best performing year was clearly 2017 with total sales almost double 2016.
+This suggests that the business experienced major growth in 2017 possibly due to higher demand more successful products or stronger store performance.
 
+Sales in 2018 are much lower than 2017 but this most likely happened because the dataset for 2018 appears to cover only part of the year not the full 12 months.
 
+**Conclusion**
+Overall the time series analysis suggests:
+  - strong sales growth from 2016 to 2017
+  - a major peak in late 2017
 
-
+![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/a386929301e7581e0ddaa5ce421bf5ee26269f88/reports/yearly_sales.png)
 
 
 
