@@ -98,9 +98,9 @@ The following data quality checks and cleaning steps are performed:
 After cleaning several transformations are applied:
 
 - **Referential Integrity Check (Order Items vs Orders)**  
-  Removed records from the `order_items` table where the `order_id` does not exist in the `orders` table.  
-  This ensures data consistency and guarantees that all order items are linked to valid orders.
-
+  Removed records from the `order_items` table where the `order_id` does not exist in the `orders` table.
+  This step prevents orphan records and ensures reliable joins during data modeling and analysis also This ensures data consistency and guarantees that all order items are linked to valid orders.
+  
 - **Aggregation of Order Items**  
   Aggregated the `order_items` table to handle cases where the same `order_id` and `product_id` appear in multiple rows.  
   These rows were grouped and combined into a single record by:
