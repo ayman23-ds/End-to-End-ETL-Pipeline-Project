@@ -217,14 +217,15 @@ This value is far above the normal monthly range and should be highlighted as a 
 
 #### **Top 10 Best Selling Products**
 
-he Top 10 Products chart shows that a limited number of products contribute a very large portion of total sales.
+the Top 10 Products chart shows that a limited number of products contribute a very large portion of total sales.
+
 The highest-selling product is:
-Trek Slash 8 27.5 - 2016
+- Trek Slash 8 27.5 - 2016
 
 followed by:
-Trek Conduit+ - 2016
-Trek Fuel EX 8 29 - 2016
-Trek Domane S 5 Disc - 2017
+- Trek Conduit+ - 2016
+- Trek Fuel EX 8 29 - 2016
+- Trek Domane S 5 Disc - 2017
 
 This indicates that product sales are not equally distributed.
 Instead a relatively small number of products are responsible for a large share of total revenue.
@@ -235,11 +236,10 @@ Instead a relatively small number of products are responsible for a large share 
 
 The Top 5 Categories chart shows that:
 
-Mountain Bikes is the best-selling category by a large margin
-Road Bikes comes second
-Cruisers Bicycles is third
-Electric Bikes and Cyclocross Bicycles follow behind
-Interpretation
+- Mountain Bikes is the best selling category by a large margin
+- Road Bikes comes second
+- Cruisers Bicycles is third
+- Electric Bikes and Cyclocross Bicycles follow behind
 
 This means customer demand is concentrated strongly in Mountain Bikes.
 The gap between Mountain Bikes and the other categories is significant which suggests that this category is a major revenue driver.
