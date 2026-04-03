@@ -323,3 +323,94 @@ However a late delivery rate of about one-third is still significant and may neg
 ![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/730ecc8b5b477afa049f07c725eb359cddf381cb/reports/Delivery_Performance.png)
 ![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/730ecc8b5b477afa049f07c725eb359cddf381cb/reports/Delivery_Performance_pie.png)
 
+
+### **Overall Findings**
+
+Based on the charts the main findings are:
+
+- Sales generally show stable behavior over time with one major spike in November 2017
+- 2017 is the strongest sales year in the dataset
+- A small number of products generate a large share of revenue
+- Mountain Bikes is the leading category
+- Baldwin Bikes is the top performing store by a large margin
+- Customer spending is highly skewed with a small group of high value customers
+- Customer segmentation clearly separates low, medium, and high spenders
+- Sales are not heavily concentrated in locality customer
+- About 32% of deliveries are late which indicates an important operational challenge
+
+---
+
+## **Final Conclusion**
+
+The analysis demonstrates that the Gold Layer successfully supports business intelligence and reporting.
+By modeling the data into a Galaxy Schema and building analytical charts the project reveals clear insights across sales, customers, products, stores, and logistics.
+
+From a business perspective the most important opportunities are:
+
+- focusing on top selling products and categories
+- learning from the highest performing store
+- retaining high value customers
+- improving delivery operations
+- investigating unusual sales spikes for strategic planning
+
+Overall the project shows how raw operational data can be transformed into actionable insights through a complete ETL pipeline and dimensional modeling approach.
+
+---
+## 📁 Project Structure Summary
+
+```
+End-to-End ETL Pipeline
+│
+├── Data 
+│   ├── raw
+│   ├── intermediate
+│   ├── staging_1
+│   ├── staging_2
+│   └── gold_layer
+│
+├── reports
+│
+└── scripts
+
+```
+
+---
+
+## About Me
+
+I am a **Data Engineer** with a strong interest in building modern data platforms and scalable data pipelines.
+
+I am currently pursuing a **Master’s degree in Machine Learning and Deep Learning at the University of Pavia, Italy**. My academic and technical focus includes:
+
+* Data Engineering & Data Warehousing
+* ETL / ELT Pipelines
+* Big Data Technologies
+* Machine Learning & Deep Learning
+
+I am passionate about designing efficient data architectures that enable advanced analytics and intelligent systems.
+
+## Connect With Me
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/ahmed-ayman-b69219354/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
