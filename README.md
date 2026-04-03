@@ -143,7 +143,7 @@ At this stage data is optimized for business intelligence and decision making.
 ### **Galaxy Schema** 
 Instead of using a single fact table a **Galaxy Schema**  is implemented.
 This design includes multiple fact tables that share common dimension tables enabling more advanced and flexible analysis.
-![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/d699325f1f9a9b966cbaa3c0b2f28910e05cf4c9/reports/galaxy_schema.png)
+![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/a57d7e195a10a80c874e770046655e4c025bf71c/reports/galaxy_schema.png)
 ####  Fact Tables
 
 - **fact_sales**
