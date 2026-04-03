@@ -73,7 +73,7 @@ At this stage, all extracted data is stored in its original format with minimal 
   - `extraction_date`
   - `data_source`
 - Keep data in raw format without applying business logic
-- All datasets are stored in the `**Bronze layer**`.
+- All datasets are stored in the `Bronze layer`.
 
 ---
 
@@ -124,7 +124,7 @@ After cleaning several transformations are applied:
 - **Column Standardization**  
   Rename and reorder columns for consistency.
 
-The cleaned and transformed datasets are stored in `**silver layer**`
+The cleaned and transformed datasets are stored in `silver layer`
 
 ---
 
