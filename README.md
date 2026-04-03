@@ -77,8 +77,56 @@ At this stage, all extracted data is stored in its original format with minimal 
 
 ---
 
+## 🥈 Silver Layer – Data Cleaning & Transformation
+
+The **Silver Layer** focuses on cleaning, validating, and transforming the raw data from the Bronze layer into a structured and reliable format.
+At this stage, data quality is improved and business logic is applied to prepare the datasets for analytical processing.
+
+###  Data Cleaning
+
+The following data quality checks and cleaning steps are performed:
+
+- Handle missing values (null checks)
+- Remove duplicate records
+- Validate data types (dates, numeric values, etc.)
+- Fix inconsistent or incorrect values
+- Ensure referential integrity between datasets
 
 
+###  Data Transformation
+
+After cleaning several transformations are applied:
+
+- **Referential Integrity Check (Order Items vs Orders)**  
+  Removed records from the `order_items` table where the `order_id` does not exist in the `orders` table.  
+  This ensures data consistency and guarantees that all order items are linked to valid orders.
+
+- **Aggregation of Order Items**  
+  Aggregated the `order_items` table to handle cases where the same `order_id` and `product_id` appear in multiple rows.  
+  These rows were grouped and combined into a single record by:
+  - Summing quantities  
+  - Calculating total sales values  
+  This ensures accurate representation of each product within an order and avoids duplication in analysis.
+
+- **Currency Conversion**  
+  Convert product prices using exchange rates from `currency.csv`
+
+- **Delivery Metrics**  
+  - Create `is_late` column to identify delayed shipments  
+  - Calculate `latency_days` based on shipping and required dates  
+
+- **Locality Flag**  
+  Determine whether a customer is local to a store based on city. 
+
+- **Lookup Tables**  
+  Replace coded values (order status) with descriptive labels  
+
+- **Column Standardization**  
+  Rename and reorder columns for consistency
+
+The cleaned and transformed datasets are stored in `silver layer`
+
+---
 
 
 
