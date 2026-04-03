@@ -116,13 +116,13 @@ After cleaning several transformations are applied:
   - Calculate `latency_days` based on shipping and required dates  
 
 - **Locality Flag**  
-  Determine whether a customer is local to a store based on city. 
+  Determine whether a customer is local to a store based on city by creating `is_local` flag.
 
 - **Lookup Tables**  
-  Replace coded values (order status) with descriptive labels  
+  Replace coded values (`order status`) with descriptive labels  
 
 - **Column Standardization**  
-  Rename and reorder columns for consistency
+  Rename and reorder columns for consistency.
 
 The cleaned and transformed datasets are stored in `silver layer`
 
