@@ -195,6 +195,7 @@ This suggests that the business experienced major growth in 2017 possibly due to
 Sales in 2018 are much lower than 2017 but this most likely happened because the dataset for 2018 appears to cover only part of the year not the full 12 months.
 
 **Conclusion**
+
 Overall the time series analysis suggests:
   - strong sales growth from 2016 to 2017
   - a major peak in late 2017
