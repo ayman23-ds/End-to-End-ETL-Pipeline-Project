@@ -60,9 +60,22 @@ the project integrates data from three main sources :
   Multiple CSV files are loaded from local directories:
   the result is saved in csv files named :brands.csv , categories.csv, customers.csv, products.csv , staffs.csv , stocks.csv , stores.csv
 
+---
+## 🥉 Bronze Layer
 
+The **Bronze Layer** represents the raw ingestion stage of the pipeline.  
+At this stage, all extracted data is stored in its original format with minimal transformation.
 
+- Read all datasets using Python (`pandas`, `glob`, `os`)
+- Standardize file formats and naming conventions
+- Add metadata columns:
+  - `extraction_timestamp`
+  - `extraction_date`
+  - `data_source`
+- Keep data in raw format without applying business logic
+- All datasets are stored in the Bronze layer.
 
+---
 
 
 
