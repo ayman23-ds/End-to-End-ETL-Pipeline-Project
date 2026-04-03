@@ -267,9 +267,27 @@ Its total sales are several times higher than the next stores which may indicate
 ![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/6dcdbe5a106cf8a5283aef742148de4de3973de2/reports/Top_5_Stores.png)
 
 
+### **Customer Behavior Analysis**
 
+#### **Customer Spending Distribution**
 
+The customer spending histogram shows a right skewed distribution
 
+This means that:
+- most customers have relatively low to medium total spending
+- a smaller number of customers spend very high amounts
 
+![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/633683c8aa03e59ce8e29aaeeb844c8c9c8fad86/reports/Customer_Spending_Distribution.png)
+
+#### **Average Spending by Customer Segment**
+
+The customer segment bar chart confirms a clear separation between three groups:
+- Low segment has the smallest average spending
+- Medium segment spends more around 3x the low group
+- High segment spends far more than the other two groups
+
+The average spending for the High segment is extremely larger than the other groups which confirms that the segmentation is meaningful and useful.
+
+![image alt](https://github.com/ayman23-ds/End-to-End-ETL-Pipeline-Project/blob/633683c8aa03e59ce8e29aaeeb844c8c9c8fad86/reports/Average_Spending_by_Customer_Segment.png)
 
 
