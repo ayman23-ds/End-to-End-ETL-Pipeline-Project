@@ -8,11 +8,11 @@ The goal of this project is to simulate a real world data engineering workflow  
 
 ##  What You Will Find Here
 
-- 🔹 Data extraction from multiple sources (API, databases, CSV files)
-- 🔹 Data cleaning and validation processes
-- 🔹 Data transformation and enrichment
-- 🔹 Dimensional data modeling (Star Schema)
-- 🔹 Business insights through data visualization
+-  Data extraction from multiple sources (API, databases, CSV files)
+-  Data cleaning and validation processes
+-  Data transformation and enrichment
+-  Dimensional data modeling (Star Schema)
+-  Business insights through data visualization
 
 ---
 
